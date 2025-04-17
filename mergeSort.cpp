@@ -45,4 +45,15 @@ void MergeSort(int low, int high) {
     int j = mid + 1; //step4.b
     int k = low; //step 4.c
 
+    while (i <= mid && j <= high) {
+        if (arr[i] <= arr[j]){
+            B[k] = arr[i];
+            i++;
+        
+        }else {
+            B[k] = arr[j];
+            j++;
+        }
+        k++;
+    }
 }
