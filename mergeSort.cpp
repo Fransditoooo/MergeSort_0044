@@ -25,11 +25,11 @@ void input() {
             for (int i = 0; i < n; i++){
                 cout << "Masukkan Array index ke - " << i << ":";
                 cin >> arr[i];
-            }
+            };
+}
 
-            
-
-
-
-
+void MergeSort(int low, int high) {
+    if (low >= high) { //step 1
+        return ; //step 1.a
+    }
 }
